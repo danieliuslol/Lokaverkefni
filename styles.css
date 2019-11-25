@@ -1,0 +1,126 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 'Open Sans', sans-serif; /* samsett skipun: weight/height, size, family */
+    background-color: blue;
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.blockquote {
+    background-color: white;
+}
+.headcolor, .footcolor {
+    color: #fff;
+}
+.bground {
+    background-color: burlywood;
+    padding: 1em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+.eh{
+    background-color: white;
+    opacity: .7;
+    padding: 1em;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.headcolor h1{
+    margin: 2em 0 1em 0;
+}
+
+.headcolor p{
+    text-align: right;
+}
+.headcolor h1,
+.footnav a, 
+.topnav a{
+    color: rgb(240, 202, 152);
+    text-decoration: none;
+
+}
+.footnav {
+    padding: 0;
+
+}
+.footnav li{
+    list-style-type: none;
+    line-height: 2;
+}
+.topnav a{
+    padding-left: 2em;
+}
+.topnav{
+    margin-top: 4em;
+}
+.innermenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.innermenu a{
+    background-color: darkblue;
+    text-decoration: none;
+    color: rgb(240, 202, 152);
+    padding: .5em 1em;
+    border-right: 1px solid #fff;
+}
+.innermenu a:hover,
+.innermenu a:active{
+    background-color: rgb(240, 202, 152);
+    color: darkblue;
+}
+.innermenu a:last-child{
+    border: 0;
+}
+.marginb{
+    margin: .5em 0 0 0;
+}
+.copy{
+    text-align: center;
+    color: rgb(240, 202, 152)
+}
+
+.topbutt{
+    display: block;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    padding: 0 .3em;
+    font-size: 2en;
+    color: #1818af;
+    border: 2px solid #1818af;
+    background-color: burlywood;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.img1em{
+    max-width: 20em;
+}
+
+
