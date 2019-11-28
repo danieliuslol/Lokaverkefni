@@ -4,7 +4,7 @@ body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 'Open Sans', sans-serif; /* samsett skipun: weight/height, size, family */
-    background-color: black;
+    background-color: blue;
 }
 h1 {
     font-weight: 300;
@@ -18,13 +18,14 @@ h1 {
     color: #fff;
 }
 .bground {
+    background-color: burlywood;
     padding: 1em;
 }
 
 .container {
-    max-width: 100em; /*960px = fartölvur*/
-    margin: 1 auto; /* top+bottom og left+right */
-    padding: 10
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
 }
 .eh{
     background-color: white;
@@ -82,7 +83,7 @@ h1 {
     justify-content: center;
 }
 .innermenu a{
-    background-color: black;
+    background-color: darkblue;
     text-decoration: none;
     color: rgb(240, 202, 152);
     padding: .5em 1em;
@@ -90,7 +91,7 @@ h1 {
 }
 .innermenu a:hover,
 .innermenu a:active{
-    background-color: rgb(253, 249, 1);
+    background-color: rgb(240, 202, 152);
     color: darkblue;
 }
 .innermenu a:last-child{
@@ -121,3 +122,5 @@ h1 {
 .img1em{
     max-width: 20em;
 }
+
+
