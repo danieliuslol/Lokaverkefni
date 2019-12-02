@@ -4,7 +4,7 @@ body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 'Open Sans', sans-serif; /* samsett skipun: weight/height, size, family */
-    background-color: blue;
+    background-color: rgb(100, 0, 0);
 }
 h1 {
     font-weight: 300;
@@ -18,7 +18,7 @@ h1 {
     color: #fff;
 }
 .bground {
-    background-color: burlywood;
+    background-color: rgb(114, 114, 114);
     padding: 1em;
 }
 
@@ -112,18 +112,24 @@ h1 {
     right: 2em;
     padding: 0 .3em;
     font-size: 2en;
-    color: #1818af;
-    border: 2px solid #1818af;
-    background-color: burlywood;
+    color: rgb(114, 114, 114);
+    border: 2px solid rgb(114, 114, 114);
+    background-color: rgb(100, 0, 0);
     border-radius: 100%;
     text-decoration: none;
 }
 
 .rustimg{
-    max-width: 15em;
+    max-width: 4em;
 }
 
+.rustimg2{
+    max-width: 55em;
+}
 
+.padd{
+    padding: 1em;
+}
 
 
 
