@@ -22,4 +22,9 @@ Setja inn myndir -
 Setja upp síðu - 
 Skrá inn heimildir - 
 
+Heimildir:
+
+https://en.wikipedia.org/wiki/Rust_(video_game)
+
+https://www.pcgamer.com/rust-review/
 
