@@ -9,17 +9,17 @@ Verkefnaskipting:
 
 Danielius: 
 
-Finna upplýsingar um leikinn
-Skrifa texta við viðeigandi spurningar
-Koma fyrir í uppsetningu
-Finna myndir
-Breyta theme
+Finna upplýsingar um leikinn - 
+Skrifa texta við viðeigandi spurningar - 
+Koma fyrir í uppsetningu - 
+Finna myndir - 
+Breyta theme - 
 
 Andri: 
 
-Búa til beinagrind fyrir vefsíðu
-Setja inn myndir
-Setja upp síðu
-Skrá inn heimildir
+Búa til beinagrind fyrir vefsíðu - 
+Setja inn myndir - 
+Setja upp síðu - 
+Skrá inn heimildir - 
 
 
