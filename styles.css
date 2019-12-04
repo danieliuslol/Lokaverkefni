@@ -7,8 +7,9 @@ body {
     background-color: rgb(100, 0, 0);
 }
 h1 {
-    font-weight: 300;
-    font-size: 2.5em;
+    font-weight: 200;
+    font-size: 1.5em;
+    font-family: 'Alata', sans-serif;
 }
 
 .blockquote {
@@ -18,7 +19,7 @@ h1 {
     color: #fff;
 }
 .bground {
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(255, 247, 247);
     padding: 1em;
 }
 
@@ -30,7 +31,7 @@ h1 {
 .eh{
     background-color: white;
     opacity: .7;
-    padding: 1em;
+    padding: 2em;
 }
 /* grid */
 .col-2 {
@@ -75,7 +76,7 @@ h1 {
     padding-left: 2em;
 }
 .topnav{
-    margin-top: 4em;
+    margin-top: 5em;
 }
 .innermenu {
     display: flex;
@@ -130,6 +131,6 @@ h1 {
 .padd{
     padding: 1em;
 }
-
-
-
+h4 {
+    font-family: 'Solway', serif;
+}
